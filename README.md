@@ -18,7 +18,7 @@ This project saves the final 4-letter Briggs result (ex: ENTP) with the user's n
 3) Create a Web App in Firebase and copy the config values
 4) Copy `.env.example` to `.env` and fill in your Firebase values
 
-Firestore collection used: `testResults`
+Firestore collection used: `testResults`.
 
 ## Basic Firestore rules (for testing only)
 During development you can allow writes temporarily, then tighten later.

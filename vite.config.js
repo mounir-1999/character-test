@@ -10,7 +10,7 @@ export default defineConfig({
     // viteSingleFile(),
     vue(),
   ],
-   base: '/monir-character-test/',   // 🔥 MUST match repo name exactly
+   base: '/character-test/',   // 🔥 MUST match repo name exactly
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
